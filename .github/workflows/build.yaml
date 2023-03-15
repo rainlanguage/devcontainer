@@ -13,5 +13,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - run: docker build -t thedavidmeister/devcontainer:foundry .
-      - run: docker push thedavidmeister/devcontainer:foundry
+      - run: docker build -t rainprotocol/devcontainer:foundry .
+      - run: docker push rainprotocol/devcontainer:foundry
